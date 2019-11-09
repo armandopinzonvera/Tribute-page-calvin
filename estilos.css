@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+:root{
+    --color-oscuro1: #04202c;
+    --color-oscuro2: #304040;
+    --color-oscuro3: #5b7065;
+    --color-claro: #c9d1c8;
+}
+#body{
+    background: url(IMAGENES/833.jpg);
+
+}
+#main{
+    width:80%;
+    display: block;
+    margin: auto;
+    background: var(--color-claro);
+    margin-top: 5px;
+    border-radius: 8px;
+}
+#title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--color-oscuro2);
+    color: var(--color-claro);
+    border-radius: 8px 8px 0px 0px;
+    position: sticky;
+    top: 0;
+}
+#image{
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    opacity: 0.8;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+#img-caption{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+#logros{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+    margin:auto;
+}
+.figura{
+    margin-top: 0px;
+       
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+}
+.foto2{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;   
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.caption{
+    margin: 30px 5px 5px 5px;
+    text-align: justify;
+}
+#grand{
+ margin-top: 0px;
+}
+
+@media (min-width:750px){
+
+    #logros{
+        flex-direction: row;
+        
+    }
+    .figura{
+        width: 30%;
+    }
+}
